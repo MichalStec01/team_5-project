@@ -124,4 +124,30 @@ h6 {
   color: #907E82;
   margin-bottom: 12px;
 }
+
+.about__button {
+  width: 176px;
+  height: 44px;
+  background-color: #FFFFFF;
+  border: none;
+  border-radius: 22px;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.about__button__icon {
+  width: 4.43px;
+  height: 8px;
+  margin-left: 13.62px;
+}
 /*# sourceMappingURL=main.css.map */
