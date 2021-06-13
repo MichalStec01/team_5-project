@@ -67,4 +67,10 @@ h6 {
     padding: 0 115px;
   }
 }
+
+.about {
+  background-color: var(--about-background);
+  padding-top: 125px;
+  padding-bottom: 145px;
+}
 /*# sourceMappingURL=main.css.map */
