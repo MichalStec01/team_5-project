@@ -196,4 +196,8 @@ h6 {
   line-height: 1.7;
   color: #000000;
 }
+
+.advantages__item:not(:last-child) {
+  margin-bottom: 38px;
+}
 /*# sourceMappingURL=main.css.map */
