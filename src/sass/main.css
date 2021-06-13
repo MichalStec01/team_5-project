@@ -156,7 +156,7 @@ h6 {
 .advantages {
   background-color: var(--about-background);
   padding-top: 20px;
-  padding-bottom: 145px;
+  padding-bottom: 97px;
 }
 
 .advantages__list {
@@ -199,5 +199,10 @@ h6 {
 
 .advantages__item:not(:last-child) {
   margin-bottom: 38px;
+}
+
+.gallery {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(39%, #FFF5F6), color-stop(39%, #E5E5E5), color-stop(61%, #E5E5E5));
+  background-image: linear-gradient(to bottom, #FFF5F6 39%, #E5E5E5 39%, #E5E5E5 61%);
 }
 /*# sourceMappingURL=main.css.map */
