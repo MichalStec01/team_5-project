@@ -80,7 +80,7 @@ h6 {
   background-color: var(--about-background);
   padding-top: 125px;
   padding-bottom: 145px;
-  background-image: url("./images/about/about_bg_mobile_w280.png");
+  background-image: url("/images/about/about_bg_mobile_w280.png");
 }
 
 .about__label {
