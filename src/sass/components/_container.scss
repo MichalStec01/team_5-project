@@ -8,6 +8,11 @@
     margin: 0 auto;
     padding: 0 20px;
 }
+.container--gallery {
+    max-width: 320px;
+    margin: 0 auto;
+    padding: 0 -22px;
+}
 }
 
 @media screen and (min-width: 768px) {
@@ -29,8 +34,5 @@
     justify-content: center;
 }
 
-.container-gallery {
-    padding: 0 -22px;
-}
 
 
