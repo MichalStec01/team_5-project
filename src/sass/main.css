@@ -208,7 +208,7 @@ h6 {
 .gallery {
   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(39%, #FFF5F6), color-stop(39%, #E5E5E5), color-stop(61%, #E5E5E5));
   background-image: linear-gradient(to bottom, #FFF5F6 39%, #E5E5E5 39%, #E5E5E5 61%);
-  background-repeat: no-repeat;
+  background-repeat: repeat-x;
   background-size: cover;
 }
 /*# sourceMappingURL=main.css.map */
