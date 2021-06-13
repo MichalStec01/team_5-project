@@ -8,6 +8,8 @@
     flex-wrap: wrap;
 }
 .advantages__item {
+    width: 230px;
+    height: 156px;
     display: flex;
     flex-direction: column;
 }
@@ -19,7 +21,6 @@
     color: #D41443;
 }
 .advantages__description {
-    width: 230px;
     font-size: 12px;
     font-weight: 700;
     line-height: 1.7;

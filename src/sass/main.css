@@ -168,6 +168,8 @@ h6 {
 }
 
 .advantages__item {
+  width: 230px;
+  height: 156px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -186,7 +188,6 @@ h6 {
 }
 
 .advantages__description {
-  width: 230px;
   font-size: 12px;
   font-weight: 700;
   line-height: 1.7;
