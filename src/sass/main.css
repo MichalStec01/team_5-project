@@ -79,7 +79,7 @@ h6 {
 .about {
   background-color: var(--about-background);
   padding-top: 125px;
-  padding-bottom: 145px;
+  padding-bottom: 19px;
   background-image: url("/images/about/about_bg_mobile_w280.png");
   background-repeat: no-repeat;
   background-position-x: center;
@@ -151,5 +151,47 @@ h6 {
   width: 7.75px;
   height: 14px;
   margin-left: 13.62px;
+}
+
+.advantages {
+  background-color: var(--about-background);
+  padding-top: 20px;
+  padding-bottom: 145px;
+}
+
+.advantages__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.advantages__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.advantages__head {
+  font-family: var(--title-font);
+  font-size: 36px;
+  font-weight: 400;
+  letter-spacing: 4%;
+  color: #D41443;
+}
+
+.advantages__description {
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1.7;
+  color: #000000;
 }
 /*# sourceMappingURL=main.css.map */
