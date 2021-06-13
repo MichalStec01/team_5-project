@@ -68,9 +68,36 @@ h6 {
   }
 }
 
+.container--about {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 .about {
   background-color: var(--about-background);
   padding-top: 125px;
   padding-bottom: 145px;
+}
+
+.about__label {
+  font-family: var(--title-font);
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 400px;
+  color: #FFA5BA;
+  margin-bottom: 15px;
+}
+
+.about__title {
+  font-family: var(--title-font);
+  text-transform: uppercase;
+  font-size: 34px;
+  font-weight: 400px;
+  line-height: 38,93px;
+  color: #D41443;
+  margin-bottom: 26px;
 }
 /*# sourceMappingURL=main.css.map */
