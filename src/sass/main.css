@@ -82,7 +82,8 @@ h6 {
   padding-bottom: 145px;
   background-image: url("/images/about/about_bg_mobile_w280.png");
   background-repeat: no-repeat;
-  background-position: 0px 766px;
+  background-position-x: 0px center;
+  background-position-y: 766px;
 }
 
 .about__label {
