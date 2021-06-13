@@ -76,6 +76,10 @@ h6 {
           justify-content: center;
 }
 
+.container-gallery {
+  padding: 0 -22px;
+}
+
 .about {
   background-color: var(--about-background);
   padding-top: 125px;
