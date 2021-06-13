@@ -78,8 +78,8 @@ h6 {
 
 .container--gallery {
   max-width: 320px;
-  margin: 0 auto;
-  padding: 0 -22px;
+  margin: 0 -22px;
+  padding: 0px;
 }
 
 .about {
@@ -208,8 +208,8 @@ h6 {
 }
 
 .gallery {
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(39%, #FFF5F6), color-stop(39%, #E5E5E5), color-stop(61%, #E5E5E5));
-  background-image: linear-gradient(to bottom, #FFF5F6 39%, #E5E5E5 39%, #E5E5E5 61%);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(39%, #FFF5F6), color-stop(39%, #E5E5E5), to(#E5E5E5));
+  background-image: linear-gradient(to bottom, #FFF5F6 39%, #E5E5E5 39%, #E5E5E5 100%);
   background-repeat: repeat-x;
 }
 /*# sourceMappingURL=main.css.map */
