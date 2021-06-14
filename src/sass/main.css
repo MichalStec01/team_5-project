@@ -498,7 +498,7 @@ h6 {
     background-image: linear-gradient(to bottom, #fff 17%, #FFF5F6 17%, #FFF5F6 83%);
   }
   .contacts__background {
-    background-image: url("../../images/background.jpg");
+    background-image: url("/images/background.jpg");
     z-index: 2;
   }
   .contacts__grid {
