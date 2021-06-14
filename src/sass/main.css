@@ -40,15 +40,12 @@ h6 {
   --list-style: none;
 }
 
-/* .container {
-    display: flex;
-}
- */
-/* @media screen and (min-width: 320px) { */
-.container {
-  max-width: 320px;
-  margin: 0 auto;
-  padding: 0 20px;
+@media screen and (min-width: 320px) {
+  .container {
+    max-width: 320px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -66,6 +63,9 @@ h6 {
 }
 
 .container--about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   -webkit-box-pack: center;
@@ -74,12 +74,21 @@ h6 {
 }
 
 .container--gallery {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.container-advantages {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .about {
