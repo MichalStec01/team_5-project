@@ -4,7 +4,10 @@
     #fff 7.31%,
     #FFF5F6 3.31%,
     #FFF5F6 92.69%);
-    padding: 30px 0px 0px 50px ;
+    padding: 30px 0px 0px 0px ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     &__title{
         display: none;
     }
@@ -251,7 +254,8 @@
             #FFF5F6 83%);
         &__background{
 
-            background-image: url('/images/background.jpg');
+            background: url('/images/back.png') no-repeat ;
+            background-position: 0px 100px;
             z-index: 2;
         }
         &__grid{
