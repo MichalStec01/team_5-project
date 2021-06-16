@@ -700,9 +700,24 @@ h6 {
 }
 
 .gallery {
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(39%, #FFF5F6), color-stop(39%, #FFFFFF), to(#FFFFFF));
-  background-image: linear-gradient(to bottom, #FFF5F6 39%, #FFFFFF 39%, #FFFFFF 100%);
+  padding-bottom: 80px;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(24%, #FFF5F6), color-stop(24%, #FFFFFF), to(#FFFFFF));
+  background-image: linear-gradient(to bottom, #FFF5F6 24%, #FFFFFF 24%, #FFFFFF 100%);
   background-repeat: repeat-x;
+}
+
+@media screen and (min-width: 768px) {
+  .gallery {
+    padding-bottom: 121px;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(27%, #FFF5F6), color-stop(27%, #FFFFFF), to(#FFFFFF));
+    background-image: linear-gradient(to bottom, #FFF5F6 27%, #FFFFFF 27%, #FFFFFF 100%);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .gallery {
+    padding-bottom: 123px;
+  }
 }
 
 .contacts {
