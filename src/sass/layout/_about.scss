@@ -1,7 +1,7 @@
 .about {
     background-color: var(--about-background);
     padding-top: 125px;
-    padding-bottom: 19px;
+    padding-bottom: 39px;
     background-image: url('/images/about/about_bg_mobile_w320.png');
     background-repeat: no-repeat;
     background-position-x: center;
@@ -31,9 +31,13 @@
     flex-wrap: wrap;
     justify-content: center;
 }
-.about_leftside {
-    display: block;
-    margin-bottom: 46px;
+.about__leftside {
+    width: 280px;
+    height: 279px;
+    background-image: url('/images/about/about_cow_mobile_w280.png');
+}
+.about__rightside {
+    margin-top: 46px;
 }
 .about__description {
     width: 220px;
@@ -71,7 +75,7 @@
 @media screen and (min-width: 768px) {
     .about {
     padding-top: 130px;
-    padding-bottom: 36px;
+    padding-bottom: 66px;
     background-image: none;
     }
     .about__label {
@@ -82,11 +86,19 @@
     font-size: 48px;
     margin-bottom: 50px;
     }
-    .about_leftside {
-    margin-bottom: 0px;
-    margin-right: 17px;
+    .about__contain {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    }
+    .about__leftside {
+    width: 340px;
+    height: 339px;
+    background-image: url('/images/about/about_cow_tablet_w340.png');
     }
     .about__rightside {
+    margin-left: 17px;
+    margin-top: 50px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -98,6 +110,11 @@
     font-weight: 500;
     line-height: 1.76;
     margin-bottom: 37px;
+    }
+    .about__description--color {
+    color: #907E82;
+    margin-bottom: 12px;
+    letter-spacing: 0.56px;
     }
     .about__button {
     margin-top: 50px;
@@ -121,21 +138,37 @@
     font-size: 58px;
     margin-bottom: 55px;
     }
-    .about_leftside {
-    margin-bottom: 0px;
-    margin-right: 74px;
+    .about__contain {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    }
+    .about__leftside {
+    width: 516px;
+    height: 516px;
+    background-image: url('/images/about/about_cow_desktop_w516.png');
     }
     .about__rightside {
+    margin-left: 74px;
+    margin-top: 51px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: flex-start;
     }
     .about__description {
     width: 463px;
     font-size: 16px;
+    font-weight: 500;
     line-height: 1.76;
+    letter-spacing: 0.64px;
     margin-bottom: 35px;
+    }
+    .about__description--color {
+    color: #907E82;
+    font-size: 14px;
+    margin-bottom: 12px;
+    letter-spacing: 0.56px;
     }
     .about__button {
     margin-top: 33px;
