@@ -717,6 +717,8 @@ h6 {
 @media screen and (min-width: 1280px) {
   .gallery {
     padding-bottom: 123px;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(31%, #FFF5F6), color-stop(31%, #FFFFFF), to(#FFFFFF));
+    background-image: linear-gradient(to bottom, #FFF5F6 31%, #FFFFFF 31%, #FFFFFF 100%);
   }
 }
 

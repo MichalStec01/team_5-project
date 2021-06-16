@@ -24,6 +24,12 @@
 @media screen and (min-width: 1280px) {
     .gallery {
         padding-bottom: 123px;
+        background-image: linear-gradient(
+        to bottom,
+        #FFF5F6 31%,
+        #FFFFFF 31%,
+        #FFFFFF 100%
+    );
     }
 }
 
