@@ -2,7 +2,7 @@
     background-color: var(--about-background);
     padding-top: 125px;
     padding-bottom: 19px;
-    background-image: url('/images/about/about_bg_mobile_w280.png');
+    background-image: url('/images/about/about_bg_mobile_w320.png');
     background-repeat: no-repeat;
     background-position-x: center;
     background-position-y: 766px;
@@ -26,7 +26,12 @@
     color: #D41443;
     margin-bottom: 26px;
 }
-.about_img {
+.about__contain {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.about_leftside {
     margin-bottom: 46px;
 }
 .about__description {
@@ -60,4 +65,78 @@
     width: 7.75px;
     height: 14px;
     margin-left: 13.62px;
+}
+
+@media screen and (min-width: 768px) {
+    .about {
+    padding-top: 130px;
+    padding-bottom: 36px;
+    background-image: none;
+    }
+    .about__label {
+    font-size: 26px;
+    margin-bottom: 16px;
+    }
+    .about__title {
+    font-size: 48px;
+    margin-bottom: 50px;
+    }
+    .about_leftside {
+    margin-bottom: 0px;
+    margin-right: 17px;
+    }
+    .about__rightside {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    }
+    .about__description {
+    width: 340px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.76;
+    margin-bottom: 37px;
+    }
+    .about__button {
+    margin-top: 50px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .about {
+    padding-top: 125px;
+    padding-bottom: 39px;
+    background-image: url('/images/about/about_bg_desktop_w1282.png');
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 342px;
+    }
+    .about__label {
+    font-size: 30px;
+    margin-bottom: 15px;
+    }
+    .about__title {
+    font-size: 58px;
+    margin-bottom: 55px;
+    }
+    .about_leftside {
+    margin-bottom: 0px;
+    margin-right: 74px;
+    }
+    .about__rightside {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    }
+    .about__description {
+    width: 463px;
+    font-size: 16px;
+    line-height: 1.76;
+    margin-bottom: 35px;
+    }
+    .about__button {
+    margin-top: 33px;
+    }
 }
