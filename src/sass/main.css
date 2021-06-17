@@ -176,6 +176,7 @@ h6 {
 
 .products__item--third-child {
   background: #C2E297;
+  margin-bottom: 0;
 }
 
 .products__item--third-child::before {
@@ -237,21 +238,6 @@ h6 {
   margin-bottom: 41px;
 }
 
-@media screen and (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
-  .products__item--first-child::before {
-    background-image: url(/images/products/products_mobile1@2x.png);
-  }
-  .products__item--second-child::before {
-    background-image: url(/images/products/products_mobile2@2x.png);
-  }
-  .products__item--third-child::before {
-    background-image: url(/images/products/products_mobile3@2x.png);
-  }
-  .products__name::after {
-    background-image: url(/images/products/group@2x.png);
-  }
-}
-
 @media screen and (min-width: 768px) {
   .products__list {
     display: -webkit-box;
@@ -296,18 +282,6 @@ h6 {
   }
   .products__description {
     padding: 30px 11px 40px 11px;
-  }
-}
-
-@media screen and (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
-  .products__item--first-child::before {
-    background-image: url(/images/products/products_tablet1@2x.png);
-  }
-  .products__item--second-child::before {
-    background-image: url(/images/products/products_tablet2@2x.png);
-  }
-  .products__item--third-child::before {
-    background-image: url(/images/products/products_tablet3@2x.png);
   }
 }
 
@@ -362,18 +336,6 @@ h6 {
   }
   .products__btn {
     margin-bottom: 50px;
-  }
-}
-
-@media screen and (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
-  .products__item--first-child::before {
-    background-image: url(/images/products/products_desktop1@2x.png);
-  }
-  .products__item--second-child::before {
-    background-image: url(/images/products/products_desktop2@2x.png);
-  }
-  .products__item--third-child::before {
-    background-image: url(/images/products/products_desktop3@2x.png);
   }
 }
 
@@ -1302,6 +1264,122 @@ h6 {
   .footer__copyrights {
     margin-top: 9px;
     width: 280px;
+  }
+}
+
+.revievs {
+  padding-top: 80px;
+  padding-bottom: 56px;
+}
+
+.reviews__gallery {
+  display: block;
+  width: 85px;
+  height: 85px;
+  margin-bottom: 29px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.reviews__opinion {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 255%;
+  text-align: center;
+  color: #000000;
+  padding: 43px 66px 26px 57px;
+  position: relative;
+  margin-top: 0;
+  margin-bottom: 30px;
+  background-image: repeating-linear-gradient(#E1E1E1 0px 1px, transparent 1px 31px);
+}
+
+.reviews__name {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 186%;
+  text-align: center;
+  color: #000000;
+  padding-top: 18px;
+  position: relative;
+  margin: 0;
+}
+
+.reviews__opinion::before {
+  content: "";
+  display: inline-block;
+  width: 54px;
+  height: 40px;
+  background-image: url(/images/reviews/quote.png);
+  position: absolute;
+  z-index: -1;
+}
+
+.reviews__name::before {
+  content: "";
+  display: inline;
+  width: 32px;
+  height: 4px;
+  background-image: url(/images/reviews/dots.png);
+  position: absolute;
+  background-repeat: no-repeat;
+  top: 0%;
+  left: 45%;
+}
+
+.reviews__name::after {
+  content: "";
+  display: block;
+  width: 72px;
+  height: 12px;
+  background-image: url(/images/reviews/dots2.png);
+  background-repeat: no-repeat;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .reviews__gallery {
+    margin-bottom: 19px;
+  }
+  .reviews__opinion {
+    min-width: 620px;
+    min-height: 164px;
+    padding: 47px 80px 34px 80px;
+    margin-bottom: 24px;
+    background-image: repeating-linear-gradient(#E1E1E1 0px 1px, transparent 1px 30px);
+  }
+  .reviews__name {
+    padding-top: 14px;
+  }
+  .reviews__name::before {
+    left: 48%;
+  }
+  .reviews__name::after {
+    margin-top: 35px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .reviews__gallery {
+    margin-bottom: 15px;
+  }
+  .reviews__opinion {
+    height: 138px;
+    font-size: 16px;
+    line-height: 186%;
+    padding: 47px 89px 39px 87px;
+    margin-bottom: 15px;
+  }
+  .reviews__name {
+    padding-top: 15px;
+    font-size: 20px;
+    line-height: 186%;
   }
 }
 /*# sourceMappingURL=main.css.map */
