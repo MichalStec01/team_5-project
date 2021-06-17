@@ -15,5 +15,8 @@
 <symbol id="icon-next" viewBox="0 0 7 10">
 <path d="M1.4026 1L5.68381 5L1.4026 9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </symbol>
+<symbol id="icon-menu" viewBox="0 0 32 32">
+<path d="M6.4 11.733v-2.133h19.2v2.133h-19.2zM6.4 17.067h19.2v-2.133h-19.2v2.133zM6.4 22.4h19.2v-2.133h-19.2v2.133z"></path>
+</symbol>
 </defs>
 </svg>
