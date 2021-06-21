@@ -1837,7 +1837,7 @@ html {
   margin-left: 57px;
   margin-right: 66px;
   z-index: 999;
-  background: repeating-linear-gradient(transparent 0.1px 29px, #E1E1E1 29px 30px);
+  background: repeating-linear-gradient(transparent 1px 29px, #E1E1E1 29px 30px);
 }
 
 .reviews__bcg {
@@ -1951,7 +1951,7 @@ html {
     font-size: 16px;
     margin-top: -135px;
     margin-bottom: 60px;
-    background: repeating-linear-gradient(transparent 0.1px 29px, #E1E1E1 29px 30px);
+    background: repeating-linear-gradient(transparent 1px 29px, #E1E1E1 29px 30px);
   }
   .reviews__name {
     padding-top: 15px;
