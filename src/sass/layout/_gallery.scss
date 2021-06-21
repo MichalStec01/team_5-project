@@ -1,9 +1,35 @@
 .gallery {
+    padding-bottom: 80px;
     background-image: linear-gradient(
         to bottom,
-        #FFF5F6 39%,
-        #FFFFFF 39%,
+        #FFF5F6 24%,
+        #FFFFFF 25%,
         #FFFFFF 100%
     );
     background-repeat: repeat-x;
 }
+
+@media screen and (min-width: 768px) {
+    .gallery {
+        padding-bottom: 121px;
+        background-image: linear-gradient(
+        to bottom,
+        #FFF5F6 27%,
+        #FFFFFF 28%,
+        #FFFFFF 100%
+    );
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .gallery {
+        padding-bottom: 123px;
+        background-image: linear-gradient(
+        to bottom,
+        #FFF5F6 31%,
+        #FFFFFF 31%,
+        #FFFFFF 100%
+    );
+    }
+}
+

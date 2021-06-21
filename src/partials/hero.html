@@ -1,0 +1,112 @@
+<section class="hero__header" id="hero">
+  <div class="container">
+    <div class="circle"></div>
+
+    <!-- -----HEADER----- -->
+
+    <header class="header">
+      <img src="./images/hero/logo.png" alt="logo" class="logo">
+      <nav class="navigation">
+        <ul class="navigation__list list">
+          <li class="navigation__item">
+            <a class="navigation__link" href="#hero"> Home</a>
+          </li>
+          <li class="navigation__item">
+            <a class="navigation__link" href="#about">About us</a>
+          </li>
+          <li class="navigation__item">
+            <a class="navigation__link" href="#about">How it's made?</a>
+          </li>
+          <li class="navigation__item"> <a class="navigation__link" href="#products">Our poducts</a>
+          </li>
+          <li class="navigation__item">
+            <a class="navigation__link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <button mobile-menu-open type="button" class="menu__button">
+        <svg class="menu__icon" width="24" height="16">
+          <use href="./images/icons.svg#icon-menu"></use>
+        </svg>
+      </button>
+      <button class="btn btn--white">Buy now ></button>
+    </header>
+
+    <!-- -----HERO----- -->
+
+    <section class="hero">
+
+      <div class="hero__header">
+        <div class="hero__header-left">
+          <div class="header__wrapper">
+            <h1 class="hero__tittle">Ice cream made with <span class="hero__tittle--red">passion</span>
+            </h1>
+            <div class="hero__btn">
+              <button class="btn btn--red"><a class="hero__btn-link" href="#products">Products</a></button>
+              <button class="btn btn--white"><a class="hero__btn-link" href="#about">How it's made?</a></button>
+            </div>
+          </div>
+          <div class="hero__description">
+            <img src="./images/hero/milk.png" alt="bottle of milk"
+              class="hero__description-img animate__animated animate__flipInX animate__delay-2s">
+            <div class="description__wrapper">
+              <h3 class="hero__description-text">Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Quo dicta dignissimos nemo enim
+                cum
+                quisquam?</h3>
+              <button class="btn__arrow">
+                <svg class="btn__icon">
+                  <use href="./images/icons.svg#icon-arrow"></use>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+        <img alt="ice cream" src="./images/hero/ice-cream-mobile.png" srcset="./images/hero/ice-cream236x557.png 1200w"
+          class="hero__img animate__animated animate__zoomIn">
+        <div class="hero__wrapper">
+          <div class="places">
+            <div class="places__type">
+              <h2 class="places__count">16</h2>
+              <p class="places__description">cafes</p>
+            </div>
+            <div class="places__type">
+              <h2 class="places__count">23</h2>
+              <p class="places__description">food trucks</p>
+            </div>
+          </div>
+          <img src="./images/hero/girl293x232.png" alt="girl with ice cream"
+            class="hero__img-tasty animate__animated animate__jackInTheBox animate__delay-1s">
+        </div>
+      </div>
+    </section>
+
+    <!-- -----MENU MOBILNE----- -->
+
+    <div mobile-menu class="mobile-menu mobile-menu--is-hidden">
+      <div mobile-menu-close class="modal__btn">
+        <button type="button" class="btn__close">
+          <svg class="modal__close" width="24" height="16">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+      </div>
+      <button class="btn btn--white">Buy now ></button>
+      <ul class="menu__list">
+        <li class="menu__item">
+          <a class="menu__link" href="#hero">Home</a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#about">About us</a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#about">How it's made?</a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#products">Our products</a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
