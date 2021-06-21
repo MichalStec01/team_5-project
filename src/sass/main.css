@@ -39,7 +39,11 @@ h6 {
   --hero-tittle_color: #ECEBEB;
   --products-background: #E5E5E5;
   --about-background: #FFF5F6;
+  --footer-social: #FEA5BB;
+  --footer-text: #FFA5BA;
   --list-style: none;
+  --footer-copyrights:#907E82;
+  --footer-border:#e1e1e1;
 }
 
 @media screen and (min-width: 320px) {
@@ -108,7 +112,7 @@ h6 {
 }
 
 .products__label {
-  font-family: Titan One;
+  font-family: var(--title-font);
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -120,7 +124,7 @@ h6 {
 }
 
 .products__title {
-  font-family: Titan One;
+  font-family: var(--title-font);
   font-style: normal;
   font-weight: normal;
   font-size: 34px;
@@ -192,7 +196,7 @@ h6 {
 }
 
 .products__name {
-  font-family: Titan One;
+  font-family: var(--title-font);
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -220,7 +224,7 @@ h6 {
 }
 
 .products__description {
-  font-family: DM Sans;
+  font-family: var(--text-font);
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -700,8 +704,8 @@ h6 {
 }
 
 .contacts {
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(7.31%, #fff), color-stop(3.31%, #FFF5F6), color-stop(92.69%, #FFF5F6));
-  background-image: linear-gradient(to bottom, #fff 7.31%, #FFF5F6 3.31%, #FFF5F6 92.69%);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(7.31%, #fff), color-stop(3.31%, var(--about-background)), color-stop(92.69%, var(--about-background)));
+  background-image: linear-gradient(to bottom, #fff 7.31%, var(--about-background) 3.31%, var(--about-background) 92.69%);
   padding: 30px 0px 0px 0px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -771,7 +775,7 @@ h6 {
   font-family: 'dm sans';
   font-size: 12px;
   font-weight: 500;
-  color: #907E82;
+  color: var(--footer-copyrights);
   width: 179px;
   line-height: 1.5;
   text-align: left;
@@ -780,8 +784,8 @@ h6 {
 
 .contacts__open {
   padding: 25px 0px;
-  border-top: 1px solid #E1E1E1;
-  border-bottom: 1px solid #E1E1E1;
+  border-top: 1px solid var(--footer-border);
+  border-bottom: 1px solid var(--footer-border);
 }
 
 .contacts__day {
@@ -798,7 +802,7 @@ h6 {
   font-weight: 500;
   line-height: 1.833;
   text-align: left;
-  color: #FFA5BA;
+  color: var(--footer-text);
 }
 
 .contacts__hour1 {
@@ -811,7 +815,7 @@ h6 {
   font-weight: 500;
   line-height: 1.5;
   text-align: left;
-  color: #907E82;
+  color: var(--footer-copyrights);
   width: 179px;
 }
 
@@ -827,12 +831,12 @@ h6 {
   width: 161px;
   height: 44px;
   border-radius: 22px;
-  color: #d41443;
+  color: var(--hero-main_color);
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   background-color: #FFF;
-  stroke: #d41443;
+  stroke: var(--hero-main_color);
   border: none;
   fill: #FFF;
   margin-left: 29px;
@@ -840,8 +844,8 @@ h6 {
 
 .contacts__btn:hover {
   color: #FFF;
-  background-color: #d41443;
-  fill: #d41443;
+  background-color: var(--hero-main_color);
+  fill: var(--hero-main_color);
   stroke: #FFF;
 }
 
@@ -872,8 +876,8 @@ h6 {
 @media screen and (min-width: 768px) and (max-width: 1200px) {
   .contacts {
     padding: 30px 0 0 0;
-    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(14.8%, #fff), color-stop(14.8%, #FFF5F6), color-stop(85.2%, #FFF5F6));
-    background-image: linear-gradient(to bottom, #fff 14.8%, #FFF5F6 14.8%, #FFF5F6 85.2%);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(14.8%, #fff), color-stop(14.8%, var(--about-background)), color-stop(85.2%, var(--about-background)));
+    background-image: linear-gradient(to bottom, #fff 14.8%, var(--about-background) 14.8%, var(--about-background) 85.2%);
   }
   .contacts__grid {
     display: -webkit-box;
@@ -920,7 +924,7 @@ h6 {
     font-family: 'dm sans';
     font-size: 14px;
     font-weight: 500;
-    color: #907E82;
+    color: var(--footer-copyrights);
     width: 145px;
     line-height: 1.66;
     text-align: left;
@@ -928,8 +932,8 @@ h6 {
   }
   .contacts__open {
     padding: 30px 0px;
-    border-top: 1px solid #E1E1E1;
-    border-bottom: 1px solid #E1E1E1;
+    border-top: 1px solid var(--footer-border);
+    border-bottom: 1px solid var(--footer-border);
   }
   .contacts__day {
     font-family: 'DM Sans';
@@ -944,7 +948,7 @@ h6 {
     font-weight: 500;
     line-height: 1.857;
     text-align: left;
-    color: #FFA5BA;
+    color: var(--footer-text);
   }
   .contacts__hour1 {
     padding-bottom: 16px;
@@ -955,7 +959,7 @@ h6 {
     font-weight: 500;
     line-height: 1.83;
     text-align: left;
-    color: #907E82;
+    color: var(--footer-copyrights);
     width: 157px;
   }
   .contacts__buttons {
@@ -985,13 +989,13 @@ h6 {
 @media screen and (min-width: 1200px) {
   .contacts {
     padding: 30px 0 0 0;
-    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(17%, #fff), color-stop(17%, #FFF5F6), color-stop(83%, #FFF5F6));
-    background-image: linear-gradient(to bottom, #fff 17%, #FFF5F6 17%, #FFF5F6 83%);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(17%, #fff), color-stop(17%, var(--about-background)), color-stop(83%, var(--about-background)));
+    background-image: linear-gradient(to bottom, #fff 17%, var(--about-background) 17%, var(--about-background) 83%);
   }
   .contacts__background {
     background: url("/images/back.png") no-repeat;
     background-position: 0px 100px;
-    z-index: 2;
+    z-index: 1;
   }
   .contacts__grid {
     display: -webkit-box;
@@ -1038,7 +1042,7 @@ h6 {
     font-family: 'dm sans';
     font-size: 16px;
     font-weight: 500;
-    color: #907E82;
+    color: var(--footer-copyrights);
     width: 243px;
     line-height: 1.66;
     text-align: left;
@@ -1046,8 +1050,8 @@ h6 {
   }
   .contacts__open {
     padding: 32px 0px;
-    border-top: 1px solid #E1E1E1;
-    border-bottom: 1px solid #E1E1E1;
+    border-top: 1px solid var(--footer-border);
+    border-bottom: 1px solid var(--footer-border);
   }
   .contacts__day {
     font-family: 'DM Sans';
@@ -1062,7 +1066,7 @@ h6 {
     font-weight: 500;
     line-height: 1.857;
     text-align: left;
-    color: #FFA5BA;
+    color: var(--footer-text);
   }
   .contacts__hour1 {
     padding-bottom: 15px;
@@ -1073,7 +1077,7 @@ h6 {
     font-weight: 500;
     line-height: 1.83;
     text-align: left;
-    color: #907E82;
+    color: var(--footer-copyrights);
     width: 243px;
   }
   .contacts__buttons {
@@ -1101,7 +1105,7 @@ h6 {
 }
 
 .footer {
-  background-color: #fff5f6;
+  background-color: var(--about-background);
 }
 
 .footer__name {
@@ -1114,7 +1118,7 @@ h6 {
   font-family: 'titan one';
   font-weight: 400;
   font-size: 18px;
-  color: #FFA5BA;
+  color: var(--footer-text);
   width: 232px;
   line-height: 1.145;
   text-transform: uppercase;
@@ -1128,7 +1132,7 @@ h6 {
   font-size: 34px;
   line-height: 1.145;
   width: 200px;
-  color: #D41443;
+  color: var(--hero-main_color);
   text-transform: uppercase;
   padding-bottom: 43px;
 }
@@ -1144,7 +1148,7 @@ h6 {
 }
 
 .footer__social-icon {
-  background-color: #FEA5BB;
+  background-color: var(--footer-social);
   fill: #fff;
   width: 32px;
   height: 32px;
@@ -1154,7 +1158,7 @@ h6 {
 }
 
 .footer__social-icon:hover {
-  background-color: #D41443;
+  background-color: var(--hero-main_color);
 }
 
 .footer__cotact {
@@ -1171,13 +1175,13 @@ h6 {
 }
 
 .footer__contact-link {
-  color: #D41443;
+  color: var(--hero-main_color);
 }
 
 .footer__low {
   height: 89px;
   text-align: center;
-  border-top: 1px solid #E1E1E1;
+  border-top: 1px solid var(--footer-border);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1191,7 +1195,7 @@ h6 {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.52;
-  color: #907E82;
+  color: var(--footer-copyrights);
   margin-top: 22px;
   width: 150px;
 }
@@ -1268,7 +1272,6 @@ h6 {
     width: 280px;
   }
 }
-
 html {
   scroll-behavior: smooth;
 }
@@ -1337,6 +1340,8 @@ html {
   width: 171px;
   margin-top: 42px;
   margin-left: -116px;
+  height: 502px;
+  position: relative;
 }
 
 .btn {
@@ -1672,6 +1677,91 @@ html {
     line-height: 1.25;
     text-align: right;
     color: #FFF;
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .hero__header {
+    overflow: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .hero__tittle {
+    font-family: var(--title-font);
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 1.154;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #fff;
+  }
+  .hero__tittle--red {
+    font-size: 48px;
+    line-height: 0.897;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--hero-main_color);
+  }
+  .hero__btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 19px;
+  }
+  .hero__img {
+    position: relative;
+    margin-top: 36px;
+    margin-left: -116px;
+  }
+  .header__wrapper {
+    position: relative;
+    width: 218px;
+    text-align: left;
+    margin-top: 137px;
+    z-index: 1;
+  }
+  .circle {
+    position: absolute;
+    top: 83px;
+    left: 36px;
+    width: 346px;
+    height: 344px;
+    border-radius: 50%;
+    background-color: #FFA5BA;
+  }
+  .hero .btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 1.25;
+    height: 24px;
+    border-radius: 20px;
+  }
+  .hero .btn--red {
+    width: 62px;
+    color: #FFF;
+    background-color: var(--hero-main_color);
+  }
+  .hero .btn--white {
+    width: 82px;
+    color: var(--hero-main_color);
+    background-color: #fff;
+    margin-left: 8px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .hero__header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
 }
 
@@ -1821,18 +1911,28 @@ html {
 }
 
 .reviews__opinion {
-  font-family: DM Sans;
+  font-family: var(--text-font);
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
   line-height: 255%;
   text-align: center;
   color: #000000;
-  padding: 43px 66px 26px 57px;
   position: relative;
   margin-top: 0;
   margin-bottom: 30px;
-  background-image: repeating-linear-gradient(#E1E1E1 0px 1px, transparent 1px 31px);
+  margin-top: -315px;
+  margin-bottom: 52px;
+  margin-left: 57px;
+  margin-right: 66px;
+  z-index: 999;
+  background: repeating-linear-gradient(transparent 0rem 29px, #E1E1E1 29px 30px);
+}
+
+.reviews__bcg {
+  padding-bottom: 30px;
+  width: 100%;
+  height: 350px;
 }
 
 .reviews__name {
@@ -1855,6 +1955,8 @@ html {
   height: 40px;
   background-image: url(/images/reviews/quote.png);
   position: absolute;
+  top: -16px;
+  left: -1px;
   z-index: -1;
 }
 
@@ -1880,6 +1982,17 @@ html {
   margin-right: auto;
   margin-left: auto;
   margin-top: 30px;
+  margin-bottom: 56px;
+}
+
+@media screen and (min-width: 480px) {
+  .reviews__opinion {
+    margin-top: -320px;
+    margin-bottom: 70px;
+  }
+  .reviews__name::before {
+    left: 47%;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -1891,7 +2004,23 @@ html {
     min-height: 164px;
     padding: 47px 80px 34px 80px;
     margin-bottom: 24px;
-    background-image: repeating-linear-gradient(#E1E1E1 0px 1px, transparent 1px 30px);
+  }
+  .reviews__bcg {
+    height: 164px;
+  }
+  .reviews__opinion {
+    width: 460px;
+    margin-top: -140px;
+    margin-bottom: 55px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 216%;
+    letter-spacing: 0.04em;
+  }
+  .reviews__opinion::before {
+    left: -40px;
   }
   .reviews__name {
     padding-top: 14px;
@@ -1908,12 +2037,18 @@ html {
   .reviews__gallery {
     margin-bottom: 15px;
   }
+    
+  .reviews__bcg {
+    width: 100%;
+    height: 100%;
+  }
+  
   .reviews__opinion {
-    height: 138px;
+    width: 750px;
     font-size: 16px;
-    line-height: 186%;
-    padding: 47px 89px 39px 87px;
-    margin-bottom: 15px;
+    margin-top: -135px;
+    margin-bottom: 60px;
+    background: repeating-linear-gradient(transparent 0rem 29px, #E1E1E1 29px 30px);
   }
   .reviews__name {
     padding-top: 15px;
@@ -2001,4 +2136,9 @@ html {
           align-items: center;
   color: #FFF;
   text-decoration: none;
+}
+
+  .reviews__name::before {
+    left: 49%;
+  }
 }
