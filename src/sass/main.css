@@ -1269,6 +1269,10 @@ h6 {
   }
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .hero__header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1382,11 +1386,19 @@ h6 {
   background-color: var(--hero-main_color);
 }
 
+.hero .btn--red .hero__btn-link {
+  color: #fff;
+}
+
 .hero .btn--white {
   width: 82px;
   color: var(--hero-main_color);
   background-color: #fff;
   margin-left: 8px;
+}
+
+.hero .btn--white .hero__btn-link {
+  color: var(--hero-main_color);
 }
 
 .hero .btn--white:hover {

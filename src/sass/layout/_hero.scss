@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .hero {
 
   &__header {
@@ -33,6 +37,8 @@
   }
 
 
+
+
   &__tittle {
     font-family: var(--title-font);
     font-weight: 400;
@@ -48,6 +54,8 @@
       letter-spacing: 0.04em;
       text-transform: uppercase;
       color: var(--hero-main_color);
+
+
     }
   }
 
@@ -104,6 +112,10 @@
       width: 62px;
       color: #FFF;
       background-color: var(--hero-main_color);
+
+      & .hero__btn-link {
+        color: #fff;
+      }
     }
 
     &--white {
@@ -111,6 +123,10 @@
       color: var(--hero-main_color);
       background-color: #fff;
       margin-left: 8px;
+
+      & .hero__btn-link {
+        color: var(--hero-main_color);
+      }
 
       &:hover {
         background-color: #ECEBEB;
