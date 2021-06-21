@@ -1,5 +1,5 @@
 .footer{
-    background-color: #fff5f6;
+    background-color: var(--about-background);
     &__name{
         align-items: flex-start;
     }
@@ -7,7 +7,7 @@
         font-family: 'titan one';
         font-weight: 400;
         font-size: 18px;
-        color: #FFA5BA;
+        color: var(--footer-text);
         width: 232px;
         line-height: 1.145;
         text-transform: uppercase;
@@ -20,7 +20,7 @@
         font-size: 34px;
         line-height: 1.145;
         width: 200px;
-        color: #D41443;
+        color: var(--hero-main_color);
         text-transform: uppercase;
         padding-bottom: 43px;
     }
@@ -30,7 +30,7 @@
         padding-bottom: 46px;
     }
     &__social-icon{
-        background-color: #FEA5BB;
+        background-color: var(--footer-social);
         fill: #fff;
         width: 32px;
         height: 32px;
@@ -40,7 +40,7 @@
     }
    
     &__social-icon:hover{
-        background-color: #D41443;
+        background-color: var(--hero-main_color);
     }
     &__cotact{
         display: flex;
@@ -51,12 +51,12 @@
         padding-bottom: 43px;
     }
     &__contact-link{
-        color: #D41443;
+        color: var(--hero-main_color);
     }
     &__low{
         height: 89px;
         text-align: center;
-        border-top: 1px solid #E1E1E1;
+        border-top: 1px solid var(--footer-border);
         display: flex;
         justify-content: center;
     }
@@ -65,7 +65,7 @@
         font-weight: 700;
         font-size: 14px;
         line-height: 1.52;
-        color: #907E82;
+        color: var(--footer-copyrights);
         margin-top: 22px;
         width: 150px;
     }
