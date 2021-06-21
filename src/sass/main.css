@@ -1273,6 +1273,7 @@ h6 {
   }
 }
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
 
 html {
@@ -1284,10 +1285,15 @@ html {
   display: -ms-flexbox;
   display: flex;
   overflow: hidden;
+=======
+
+.hero__header {
+>>>>>>> Stashed changes
   background-color: var(--hero-background);
 }
 
 .hero__header .container {
+<<<<<<< Updated upstream
   position: relative;
   height: 502px;
 }
@@ -1343,6 +1349,10 @@ html {
   width: 171px;
   margin-top: 42px;
   margin-left: -116px;
+=======
+  height: 502px;
+  position: relative;
+>>>>>>> Stashed changes
 }
 
 .btn {
@@ -1351,6 +1361,7 @@ html {
   cursor: pointer;
 }
 
+<<<<<<< Updated upstream
 .header__wrapper {
   position: relative;
   width: 218px;
@@ -1678,6 +1689,92 @@ html {
     line-height: 1.25;
     text-align: right;
     color: #FFF;
+=======
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .hero__header {
+    overflow: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .hero__tittle {
+    font-family: var(--title-font);
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 1.154;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #fff;
+  }
+  .hero__tittle--red {
+    font-size: 48px;
+    line-height: 0.897;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--hero-main_color);
+  }
+  .hero__btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 19px;
+  }
+  .hero__img {
+    position: relative;
+    margin-top: 36px;
+    margin-left: -116px;
+  }
+  .header__wrapper {
+    position: relative;
+    width: 218px;
+    text-align: left;
+    margin-top: 137px;
+    z-index: 1;
+  }
+  .circle {
+    position: absolute;
+    top: 83px;
+    left: 36px;
+    width: 346px;
+    height: 344px;
+    border-radius: 50%;
+    background-color: #FFA5BA;
+  }
+  .hero .btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 1.25;
+    height: 24px;
+    border-radius: 20px;
+  }
+  .hero .btn--red {
+    width: 62px;
+    color: #FFF;
+    background-color: var(--hero-main_color);
+  }
+  .hero .btn--white {
+    width: 82px;
+    color: var(--hero-main_color);
+    background-color: #fff;
+    margin-left: 8px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .hero__header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+>>>>>>> Stashed changes
   }
 }
 
@@ -1694,6 +1791,7 @@ html {
   margin-top: 6px;
 }
 
+<<<<<<< Updated upstream
 .header .btn {
   display: none;
 }
@@ -1706,6 +1804,8 @@ html {
   background-color: #ECEBEB;
 }
 
+=======
+>>>>>>> Stashed changes
 .logo {
   width: 199px;
   height: 50px;
@@ -1716,7 +1816,11 @@ html {
   height: 36px;
   padding: 0;
   border: none;
+<<<<<<< Updated upstream
   background: none;
+=======
+  background: var(--hero-background);
+>>>>>>> Stashed changes
 }
 
 .menu__icon {
@@ -1726,6 +1830,7 @@ html {
   height: 100%;
   fill: var(--hero-main_color);
   cursor: pointer;
+<<<<<<< Updated upstream
   stroke: none;
 }
 
@@ -1810,11 +1915,16 @@ html {
     color: var(--hero-main_color);
     background-color: #fff;
   }
+=======
+>>>>>>> Stashed changes
 }
 
 .revievs {
   padding-top: 80px;
+<<<<<<< Updated upstream
   padding-bottom: 56px;
+=======
+>>>>>>> Stashed changes
 }
 
 .reviews__gallery {
@@ -1827,18 +1937,38 @@ html {
 }
 
 .reviews__opinion {
+<<<<<<< Updated upstream
   font-family: var(--text-font);
+=======
+  font-family: DM Sans;
+>>>>>>> Stashed changes
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
   line-height: 255%;
   text-align: center;
   color: #000000;
+<<<<<<< Updated upstream
   padding: 43px 66px 26px 57px;
   position: relative;
   margin-top: 0;
   margin-bottom: 30px;
   background-image: repeating-linear-gradient(#E1E1E1 0px 1px, transparent 1px 31px);
+=======
+  position: relative;
+  margin-top: -315px;
+  margin-bottom: 52px;
+  margin-left: 57px;
+  margin-right: 66px;
+  z-index: 999;
+  background: repeating-linear-gradient(transparent 0rem 29px, #E1E1E1 29px 30px);
+}
+
+.reviews__bcg {
+  padding-bottom: 30px;
+  width: 100%;
+  height: 350px;
+>>>>>>> Stashed changes
 }
 
 .reviews__name {
@@ -1861,6 +1991,11 @@ html {
   height: 40px;
   background-image: url(/images/reviews/quote.png);
   position: absolute;
+<<<<<<< Updated upstream
+=======
+  top: -16px;
+  left: -1px;
+>>>>>>> Stashed changes
   z-index: -1;
 }
 
@@ -1886,18 +2021,51 @@ html {
   margin-right: auto;
   margin-left: auto;
   margin-top: 30px;
+<<<<<<< Updated upstream
+=======
+  margin-bottom: 56px;
+}
+
+@media screen and (min-width: 480px) {
+  .reviews__opinion {
+    margin-top: -320px;
+    margin-bottom: 70px;
+  }
+  .reviews__name::before {
+    left: 47%;
+  }
+>>>>>>> Stashed changes
 }
 
 @media screen and (min-width: 768px) {
   .reviews__gallery {
     margin-bottom: 19px;
   }
+<<<<<<< Updated upstream
   .reviews__opinion {
     min-width: 620px;
     min-height: 164px;
     padding: 47px 80px 34px 80px;
     margin-bottom: 24px;
     background-image: repeating-linear-gradient(#E1E1E1 0px 1px, transparent 1px 30px);
+=======
+  .reviews__bcg {
+    height: 164px;
+  }
+  .reviews__opinion {
+    width: 460px;
+    margin-top: -140px;
+    margin-bottom: 55px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 216%;
+    letter-spacing: 0.04em;
+  }
+  .reviews__opinion::before {
+    left: -40px;
+>>>>>>> Stashed changes
   }
   .reviews__name {
     padding-top: 14px;
@@ -1914,18 +2082,32 @@ html {
   .reviews__gallery {
     margin-bottom: 15px;
   }
+<<<<<<< Updated upstream
   .reviews__opinion {
     height: 138px;
     font-size: 16px;
     line-height: 186%;
     padding: 47px 89px 39px 87px;
     margin-bottom: 15px;
+=======
+  .reviews__bcg {
+    width: 100%;
+    height: 100%;
+  }
+  .reviews__opinion {
+    width: 750px;
+    font-size: 16px;
+    margin-top: -135px;
+    margin-bottom: 60px;
+    background: repeating-linear-gradient(transparent 0rem 29px, #E1E1E1 29px 30px);
+>>>>>>> Stashed changes
   }
   .reviews__name {
     padding-top: 15px;
     font-size: 20px;
     line-height: 186%;
   }
+<<<<<<< Updated upstream
 }
 
 .mobile-menu {
@@ -2007,6 +2189,13 @@ html {
           align-items: center;
   color: #FFF;
   text-decoration: none;
+}
+/*# sourceMappingURL=main.css.map */
+>>>>>>> Stashed changes
+=======
+  .reviews__name::before {
+    left: 49%;
+  }
 }
 /*# sourceMappingURL=main.css.map */
 >>>>>>> Stashed changes
